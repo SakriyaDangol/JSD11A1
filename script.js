@@ -6,6 +6,8 @@ myButton.innerHTML = 'Add';
 
 const unList = document.querySelector('ul');
 
+const myObj = {};
+
 myButton.addEventListener('click',  () => {
     const text = document.createTextNode(myInput.value);
     const list = document.createElement('li');
@@ -14,3 +16,4 @@ myButton.addEventListener('click',  () => {
     document.querySelector('input').value = ' ';
     }
 );
+
